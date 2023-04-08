@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+   background-image: url(	https://arkeopolis.com/wp-content/uploads/0monalis.jpg);
+   background-size: cover;
+   background-position: top;
+   font-family: 'Roboto', sans-serif;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    padding:10%;
+
+}
+section .row1{
+   flex-basis: 50%;
+   
+}
+section .row2{
+    flex-basis: 50%;
+    padding-left: 200px;
+}
+.row1 p{
+    margin-top: 20px;
+    font-size: 15px;
+    color:white;
+    
+}
+.row1{
+    font-size:60px;
+}
+.row1 button{
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: all .25s ease-in;
+}
+.row1 button:hover{
+    border: 1px solid red;
+    background-color: aquamarine;
+    
+}
+.cards{
+    max-width: 600px;
+}
+ .card{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 1px solid red;
+    background-image: url(	https://cars-website-yt.netlify.app/images/pic-1.png);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    padding:0 8%;
+    transition: .25s ease-in all;
+    margin-bottom: 10px;
+    
+   
+}
+.card:hover{
+    transform: translateY(-10px);
+    transform: scale(1.1);
+    
+}
+.card-heard{
+    position: absolute;
+    top:5px;
+    right: 35px;
+}
+.card-heard p{
+    font-size: 12px;
+    background-color: gray;
+    width: 120px;
+    
+}
+.card-bottom{
+    position: absolute;
+    bottom: 10px;
+}
